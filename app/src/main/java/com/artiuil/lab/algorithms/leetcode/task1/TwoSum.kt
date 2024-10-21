@@ -1,5 +1,10 @@
 package com.artiuil.lab.algorithms.leetcode.task1
 
+// Two Sum.
+// LeetCode Task 1
+// Level: Easy
+// Data: 10/21/2024
+// Time: 28 minutes
 fun main() {
     val nums = intArrayOf(2, 7, 11, 15)
     val target = 26
