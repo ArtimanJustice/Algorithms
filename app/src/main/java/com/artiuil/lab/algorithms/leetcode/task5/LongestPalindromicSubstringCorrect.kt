@@ -24,7 +24,6 @@ fun longestPalindrome(s: String): String {
             result = evenPalindrome
         }
     }
-
     return result
 }
 
