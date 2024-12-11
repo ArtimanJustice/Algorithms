@@ -6,7 +6,7 @@ package com.artiuil.lab.algorithms.leetcode.task3
 // Data: 10/21/2024
 // Time: 1 hour 34 minutes
 fun main() {
-    val str = "astbdGhnlbaasdzxc"
+    val str = "abba"
     println(lengthOfLongestSubstring(str))
 }
 

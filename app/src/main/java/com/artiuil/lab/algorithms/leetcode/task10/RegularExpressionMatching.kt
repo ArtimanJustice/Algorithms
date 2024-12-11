@@ -6,7 +6,7 @@ package com.artiuil.lab.algorithms.leetcode.task10
 // Data: 12/08/2024
 // We need to Use DP in this task
 fun main() {
-    println(isMatch("aa", "a*"))
+    println(isMatch("aa", "a*b*"))
 }
 
 fun isMatch(s: String, p: String): Boolean {

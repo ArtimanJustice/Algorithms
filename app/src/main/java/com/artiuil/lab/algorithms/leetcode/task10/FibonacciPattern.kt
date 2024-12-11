@@ -4,6 +4,7 @@ fun main() {
     val n = 25
     println("F($n) = ${fibMemo(n)}")
     println("F($n) = ${fibTab(n)}")
+    println("F($n) = ${fib(2)}")
 }
 fun fibMemo(n: Int): Long {
     val memo = LongArray(n + 1) { -1 }
@@ -31,8 +32,6 @@ fun fibTab(n: Int): Long {
     return dp[n]
 }
 
-// Bad Solution
-// You will cal fib() n times. If n == 25, fib(2) will find in all n times while n != 1
 fun fib(n: Int): Long {
     if (n == 0) return 0
     if (n == 1) return 1
