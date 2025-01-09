@@ -5,7 +5,7 @@ package com.artiuil.lab.algorithms.leetcode.task6
 // LeetCode Task 6
 // Level: Medium
 // Data: 08/11/2024 - 10/11/2024
-// Time: 12 hours 13 minutes
+// Time: 12= hours 13 minutes
 fun main() {
     println(convert("PAYPALISHIRING", 4))
 }
