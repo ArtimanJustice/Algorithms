@@ -1,5 +1,7 @@
 [versions]
 agp = "8.7.1"
+android = "2.6.0"
+core = "3.5.2"
 kotlin = "1.9.24"
 coreKtx = "1.13.1"
 junit = "4.13.2"
@@ -9,7 +11,9 @@ appcompat = "1.7.0"
 material = "1.12.0"
 
 [libraries]
+android = { module = "com.github.kenglxn.QRGen:android", version.ref = "android" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+core = { module = "com.google.zxing:core", version.ref = "core" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
