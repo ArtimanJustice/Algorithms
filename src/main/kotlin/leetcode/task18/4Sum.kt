@@ -1,7 +1,5 @@
 package org.example.leetcode.task18
 
-import org.example.leetcode.task17.letterCombinations
-
 fun main() {
     val nums = intArrayOf(-3, -1, 0, 2, 4, 5)
     val target = 0

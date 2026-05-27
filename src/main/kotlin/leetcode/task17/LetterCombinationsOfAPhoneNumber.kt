@@ -1,7 +1,5 @@
 package org.example.leetcode.task17
 
-import kotlin.text.iterator
-
 // Letter Combinations of a Phone Number
 // LeetCode Task 17
 // Level: Medium
